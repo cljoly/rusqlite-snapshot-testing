@@ -40,6 +40,8 @@ Tool to perform snapshot testing on an SQLite database, using [rusqlite][].
 
 The goal is to expose both data and the schema in the snapshots. It is also compatible with [Insta Snapshots][insta]
 
+**This is experimental software, expect breaking changes between 0.x versions, consistent with the semver rules for Rust.**
+
 ## Background reading on snapshot testing.
 
 - https://ianthehenry.com/posts/my-kind-of-repl/

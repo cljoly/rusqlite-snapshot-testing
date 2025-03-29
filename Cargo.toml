@@ -1,0 +1,12 @@
+[package]
+name = "rusqlite-snapshot-testing"
+description = "Snapshot testing tool for rusqlite"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rusqlite = "0.34"
+tabled = "0.18.0"
+
+[dev-dependencies]
+insta = "1.42.2"

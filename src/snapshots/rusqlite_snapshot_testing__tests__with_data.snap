@@ -1,0 +1,13 @@
+---
+source: src/lib.rs
+expression: "read_all_rows(&conn, \"friend\")"
+snapshot_kind: text
+---
+ SELECT * FROM friend            
+---------------+-----------------
+ name          | year_of_birth   
+ Integer(1977) | Text("alice")   
+ Integer(1987) | Text("bob")     
+ Integer(2000) | Text("charlie") 
+ Integer(1950) | Text("daphne")  
+ Integer(1984) | Text("eve")
