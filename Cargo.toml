@@ -2,9 +2,10 @@
 authors = ["Clément Joly <foss@131719.xyz>"]
 name = "rusqlite-snapshot-testing"
 description = "Snapshot testing tool for rusqlite"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 license = "MPL-2.0"
+homepage = "https://cj.rs/rusqlite-snapshot-testing/"
 repository = "https://github.com/cljoly/rusqlite-snapshot-testing"
 
 [dependencies]
